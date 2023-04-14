@@ -62,7 +62,6 @@ void _puts(char *str)
 		i++;
 	}
 }
-
 /**
  * _putchar - writes the character c
  * @c: The character to be printed
