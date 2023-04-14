@@ -5,7 +5,6 @@
  * @s: string
  * Return: integer length
  */
-
 int _strlen(char *s)
 {
 	int i = 0;
