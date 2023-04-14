@@ -6,7 +6,6 @@
  * @av: the argument
  * Return: 0 on success, else 1 , or error code
  */
-
 int hsh(info_t *info, char **av)
 {
 	ssize_t r = 0;
