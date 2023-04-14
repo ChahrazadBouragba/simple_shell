@@ -6,7 +6,6 @@
  * @d: the delimeter string
  * Return: a pointer on success, or NULL on failure
  */
-
 char **strtow(char *str, char *d)
 {
 	int i, j, k, m, numwords = 0;
