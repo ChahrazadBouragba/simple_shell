@@ -10,7 +10,6 @@
 int is_cmd(info_t *info, char *path)
 {
 	struct stat st;
-
 	(void)info;
 	if (!path || stat(path, &st))
 		return (0);
