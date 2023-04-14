@@ -23,7 +23,6 @@ char **get_environ(info_t *info)
  *  Return: 1 on delete, or 0
  * @var: the string env var
  */
-
 int _unsetenv(info_t *info, char *var)
 {
 	list_t *node = info->env;
