@@ -54,7 +54,6 @@ char *_strdup(const char *str)
 void _puts(char *str)
 {
 	int i = 0;
-
 	if (!str)
 		return;
 	while (str[i] != '\0')
