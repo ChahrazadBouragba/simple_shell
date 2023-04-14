@@ -31,7 +31,6 @@ char **list_to_strings(list_t *head)
 	size_t i = list_len(head), j;
 	char **strs;
 	char *str;
-
 	if (!head || !i)
 		return (NULL);
 	strs = malloc(sizeof(char *) * (i + 1));
