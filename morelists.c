@@ -91,7 +91,6 @@ size_t print_list(const list_t *h)
 list_t *node_starts_with(list_t *node, char *prefix, char c)
 {
 	char *p = NULL;
-
 	while (node)
 	{
 		p = starts_with(node->str, prefix);
@@ -112,7 +111,6 @@ list_t *node_starts_with(list_t *node, char *prefix, char c)
 ssize_t get_node_index(list_t *head, list_t *node)
 {
 	size_t i = 0;
-
 	while (head)
 	{
 		if (head == node)
