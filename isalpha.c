@@ -29,7 +29,6 @@ int is_delim(char c, char *delim)
  * @c: The character for input
  * Return: 1 if c is alphabetic, 0 otherwise
  */
-
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
