@@ -5,7 +5,6 @@
  * @info: parameter struct
  * Return: allocated string of history file
  */
-
 char *get_history_file(info_t *info)
 {
 	char *buf, *dir;
