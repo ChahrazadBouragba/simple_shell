@@ -3,7 +3,7 @@
 /**
  * bfree - frees a pointer
  * @ptr: the pointer
- * Return: 1 if freed, else 0
+ * Return: 1 if freed, otherwise 0
  */
 
 int bfree(void **ptr)
