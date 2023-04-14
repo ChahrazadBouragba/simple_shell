@@ -144,8 +144,9 @@ int replace_vars(info_t *info)
  * @old: address of previous string
  * @new: new string
  *
- * Return: 1 if success, 0 otherwise
+ * Return: 1 if success, otherwise 0
  */
+
 int replace_string(char **old, char *new)
 {
 	free(*old);
